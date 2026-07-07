@@ -14,10 +14,6 @@ Events.on(EventType.ClientLoadEvent, cons(load => {
     }));
 }));
 
-while (Core.input.key(KeyCode.p)) {
-    generate_and_send();
-}
-
 function generate_and_send() {
     msg = "";
     for(let i=0; i<1; i++) {
