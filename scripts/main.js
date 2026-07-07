@@ -16,7 +16,7 @@ Events.on(EventType.ClientLoadEvent, cons(load => {
 
 function generate_and_send() {
     msg = "";
-    for(let i=0; i<Mathf.ceil(Mathf.random() * 16); i++) {
+    for(let i=0; i<1; i++) {
        rgbhex = "[#";
        for(let k=0; k<6; k++) {
           rgbhex+=hexref[Mathf.floor(Mathf.random() * 16)];
