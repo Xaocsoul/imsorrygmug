@@ -1,9 +1,9 @@
 {
-	"name": "skull-icon-in-chat",
-	"displayName": "Skull button",
-	"author":"NothingImportant",
-	"description": "Adds a button that sends colorful skull icons in chat",
-	"version": "1.4",
+	"name": "imsorrygmug",
+	"displayName": "Im sorry gmug",
+	"author":"Xaoc soul, original by Verneon",
+	"description": "Im sorry gmug",
+	"version": "1",
 	"minGameVersion": 140,
 	"hidden": true
 }
