@@ -22,7 +22,7 @@ function generate_and_send() {
           rgbhex+=hexref[Mathf.floor(Mathf.random() * 16)];
        };
     let rand = Mathf.ceil(Mathf.random()*1000);
-    msg+=rgbhex + "]" + ((rand == 1) ? "": "☠️");
+    msg+=rgbhex + "]" + ((rand == 1) ? "<@1186833004899876874> GMug id be scared of beacon if i was you ngl": "<@1186833004899876874> *Pings gmug cutely*");
     };
     Call.sendChatMessage(msg);
 };
