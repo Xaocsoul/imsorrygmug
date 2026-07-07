@@ -1,0 +1,9 @@
+{
+	"name": "skull-icon-in-chat",
+	"displayName": "Skull button",
+	"author":"NothingImportant",
+	"description": "Adds a button that sends colorful skull icons in chat",
+	"version": "1.4",
+	"minGameVersion": 140,
+	"hidden": true
+}
