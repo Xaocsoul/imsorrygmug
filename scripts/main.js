@@ -28,15 +28,15 @@ Events.on(EventType.ClientLoadEvent, cons(load => {
 
 function getvar() {
     const inputDialog = new BaseDialog("Enter Your String");
-    let myCustomString = "";
+    let msgvar = "";
     inputDialog.cont.add("Please type your text below:").row();
     const field = inputDialog.cont.field("", text => {
     }).get(); 
 
     inputDialog.buttons.button("Confirm", () => {
-        myCustomString = field.getText();
+        msgvar = field.getText();
     
-        Vars.ui.hudfrag.showToast("Saved string: " + myCustomString);
+        Vars.ui.hudfrag.showToast("Saved string: " + msgvar);
     
         inputDialog.hide();
     }).size(160, 50);
