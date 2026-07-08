@@ -27,25 +27,7 @@ Events.on(EventType.ClientLoadEvent, cons(load => {
 }));
 
 function getvar() {
-    const inputDialog = new BaseDialog("Enter Your String");
-    let msgvar = "";
-    inputDialog.cont.add("Please type your text below:").row();
-    const field = inputDialog.cont.field("", text => {
-    }).get(); 
-
-    inputDialog.buttons.button("Confirm", () => {
-        msgvar = field.getText();
-    
-        Vars.ui.hudfrag.showToast("Saved string: " + msgvar);
-    
-        inputDialog.hide();
-    }).size(160, 50);
-
-    inputDialog.buttons.button("Cancel", () => {
-        inputDialog.hide();
-    }).size(160, 50);
-
-    inputDialog.show();
+    dialog.addTextBox();
 }
 
 function generate_and_send() {
